@@ -29,22 +29,29 @@ height: 30%;
 text-align:left;
 }
 
-h1{
-    color: rgb(14, 14, 58);
-    font-size: 54px;
-    text-align: center;
-}
 
 .header{
     display: flex;
     justify-content: space-between;
 }
 
-em{ font-size: 45px;
-    color green
-    text-align: center;
+em{ font-size: 38px;
+    color: black;
+    text-align:right;
+    tex-align:justify;
+    background-color: beige;
+    
 
 
+}
+
+
+
+
+strong {
+    text-decoration: underline;
+    font: size 28px;
+    color:green
 }
 .descri{
     
@@ -55,13 +62,19 @@ em{ font-size: 45px;
 
 }
 
+h1{
+    color: rgb(14, 14, 58);
+    font-size: 54px;
+    text-align: center;
+    background-color: aquamarine;
+}
 
 h2 {
  text-align: center;
 }
 
 
-h2, h3, h4{
+.tit, h2, h3, h4{
     font-size: 44px;
     font-style: italic;
     font-weight: bold;
@@ -70,14 +83,15 @@ h2, h3, h4{
 }
 
 h5,h6 {
-    color:rgb(63, 21, 80);
+    color:rgb(25, 10, 94);
     font-size: 30px;
+    text-decoration: underline;
 }
 
-h3,h4 {
-    border-bottom: 3px solid blue;
-    display: block;h3,h4 
-        border-bottom: 1px solid blue;
+.tit,h2,h3,h4 {
+    border-bottom: 5px solid blue;
+    display: block;
+    
         display: block;
         margin: 0 auto;
         width: min-content;
@@ -92,7 +106,7 @@ h3,h4 {
 
 }
 
-h6 {
+h6,.ref{
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -102,26 +116,30 @@ h6 {
 h6{ text-align: right;
     text-align: overline;
     font-size: 38px;
+    background-color:beige;
 }
 
 .ref{
-    text-align: center;
+    text-align: justify;
+    text-align:left;
+    font-size: 20px;
+    font-weight:bold;
 
 }
 
-
-
-mark{
-    font-size: 32px;
-    color:rgb(63, 21, 80)
-    
+.pied{ text-align: center;
+       text-decoration:overline;
+       font-size:18ps;
 }
 
-
-
-strong {
-    text-decoration: underline
+.hobbies {
+    font-weight:bold;
+    text-decoration: underline;
+    margin: 65px;
+    font-weight: 200 ;
+    font-size: 28px;    
 }
+
 
 
 
