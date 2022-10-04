@@ -1,0 +1,106 @@
+
+
+body{ font-family:'Gill Sans', sans-serif;
+      text-align: justify;
+
+
+}
+
+
+
+.perso { 
+    text-align: center;
+    font-size:right;
+    width: 70%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+    
+}
+
+img{ display: block;
+width: 30%;
+height: 30%;
+text-align:left;
+}
+
+h1{
+    color: rgb(14, 14, 58);
+    font-size: 54px;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+em{ font-size: 45px;
+    color rgb(17, 51, 41);
+
+
+}
+.descri{
+    
+    color: rgb(41, 124, 79);
+    font-size: 26px;
+    
+    border:1px solid black
+
+}
+
+
+h2 {
+ text-align: center;
+}
+
+
+h2, h3, h4{
+    font-size: 44px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align:center;
+}
+
+h5,h6 {
+    color:rgb(63, 21, 80);
+    font-size: 30px;
+}
+
+h6 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+h6{ text-align: right;
+    text-align: overline;
+    font-size: 38px;
+}
+
+.ref{
+    text-align: center;
+
+}
+
+
+
+mark{
+    font-size: 32px;
+    color:rgb(63, 21, 80)
+    
+}
+
+
+
+strong {
+    text-decoration: underline
+}
+
+
+
